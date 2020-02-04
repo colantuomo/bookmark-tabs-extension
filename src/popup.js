@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 parentId,
                 title,
                 url
-            })
+            }, () => window.close())
         })
     }
 
