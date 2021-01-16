@@ -1,18 +1,44 @@
 .body-size {
-  width: 400px;
+  width: 450px;
 }
 
 .container {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
+  padding: 10px;
 }
 
 .custom-input {
-  padding: 10px;
   outline: none;
   border: none;
   font-size: 15px;
+  flex: 4;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  flex: 4;
+}
+
+#check {
+  width: 20px;
+  height: 20px;
+}
+
+.checkbox {
+  display: flex;
+  margin-bottom: 15px;
+  flex: 3;
+}
+
+.checkbox > p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 15px;
+  margin-top: 1px;
 }
 
 .custom-btn {
@@ -22,4 +48,9 @@
   border: none;
   font-weight: bolder;
   font-size: 50px;
+  flex: 2;
+}
+
+.custom-btn:hover {
+  color: green;
 }

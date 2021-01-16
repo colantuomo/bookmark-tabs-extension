@@ -1,16 +1,26 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-
-<head>
-    <link rel="stylesheet" href="popup.css">
+  <head>
+    <link rel="stylesheet" href="popup.css" />
     <script src="popup.js"></script>
-</head>
+  </head>
 
-<body class="body-size">
+  <body class="body-size">
     <div class="container">
-        <input id="bookmark" class="custom-input" placeholder="Name your tab's bookmarker">
-        <button id="btnSaveTabs" class="custom-btn">+</button>
+      <section class="inputs">
+        <div class="checkbox">
+          <p>Close all tabs after save?</p>
+          <input id="check" type="checkbox" />
+        </div>
+        <input
+          id="bookmark"
+          class="custom-input"
+          placeholder="Insert your bookmarker's name here..."
+          autofocus
+          maxlength="40"
+        />
+      </section>
+      <button id="btnSaveTabs" class="custom-btn">+</button>
     </div>
-</body>
-
+  </body>
 </html>
